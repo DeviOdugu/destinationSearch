@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bg {
+  background-color: #ffffff;
+  border: solid #f1f5f9 2px;
+  padding: 40px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #252627;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
+.search {
+  background-color: #f1f5f9;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 5px;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+}
+
+.lists {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
